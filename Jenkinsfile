@@ -13,7 +13,7 @@ pipeline {
                 echo "Building.."
                 sh '''
                 cd myapp
-                
+                python3 helloworld.py
                 '''
             }
         }
